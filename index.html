@@ -45,27 +45,28 @@
 			</header>
 
 			<div class="#">
-				<div class="container  py-12 mx-auto">
+				<div class="container w-3/4 py-12 mx-auto">
 					<div class="flex items-center justify-between">
 						<div class="">
-							<h1 class="text-logo">BoubaTech</h1>
+							<h1 class="text-logo font-bold">BoubaTech</h1>
 						</div>
 						<div class="flex justify-between">
 							<a class="no-underline text-logo font-bold mr-8" href="#home">Home</a>
-							<a class="no-underline text-logo font-bold mr-8" href="#about">About Us</a>
-							<a class="no-underline text-logo font-bold mr-8" href="#mission">Our Mission</a>
-							<a class="no-underline text-logo font-bold mr-8" href="#contact-us">Contact Us</a>
+							<a class="no-underline text-gray-700 font-bold mr-8" href="#about">About Us</a>
+							<a class="no-underline text-gray-700 font-bold mr-8" href="#mission">Our Mission</a>
+							<a class="no-underline text-gray-700 font-bold mr-8" href="#contact-us">Contact Us</a>
+							<a class="no-underline text-gray-700 font-bold mr-8" href="#our-team">Our Team</a>
 						</div>
 					</div>
 				</div>
 			</div>
 			
 			<div class="#" id="home">
-				<div class="container mx-auto pt-8 pb-32">
+				<div class="container mx-auto pt-8 pb-32 sm:w-full lg:w-3/4">
 					<div class="flex items-start">
 						
 						<div class="text-black pt-10 w-3/5 mr-10">
-							<p class="w-full mb-4 text-lg text-justify text-brand leading-loose">
+							<p class="w-full mb-12 text-lg text-justify text-brand leading-loose">
 								<span class="text-logo font-bold">BoubaTech</span> Solutions is one of the few IT system integration, professional service and software development companies in China that works with Enterprise systems and companies. As a privately owned company.<br>
 							</p>
 							<div class="flex mb-4">
@@ -110,7 +111,7 @@
 									Energy and Utilities
 								</p>
 							</div>
-							<div class="flex mb-4">
+							<div class="flex mb-12">
 								<div class="checkmark flex mr-2">
 									<svg width="30" height="30" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
 										<path fill-rule="evenodd" clip-rule="evenodd" d="M10 20C4.47715 20 0 15.5228 0 10C0 4.47715 4.47715 0 10 0C15.5228 0 20 4.47715 20 10C20 15.5228 15.5228 20 10 20ZM10 18C14.4183 18 18 14.4183 18 10C18 5.58172 14.4183 2 10 2C5.58172 2 2 5.58172 2 10C2 14.4183 5.58172 18 10 18ZM6.29289 9.29289C6.68342 8.90237 7.31658 8.90237 7.70711 9.29289L9 10.5858L12.2929 7.29289C12.6834 6.90237 13.3166 6.90237 13.7071 7.29289C14.0976 7.68342 14.0976 8.31658 13.7071 8.70711L9.70711 12.7071C9.31658 13.0976 8.68342 13.0976 8.29289 12.7071L6.29289 10.7071C5.90237 10.3166 5.90237 9.68342 6.29289 9.29289Z" fill="#4652AF"/>
@@ -122,14 +123,12 @@
 								</p>
 							</div>
 							
-							
-							<p class="w-full mb-4 text-lg text-justify text-brand leading-loose">
+							<p class="w-full mb-12 text-lg text-justify text-brand leading-loose">
 								We also have special expertise in custom software development – providing specialized products, IT services and custom end to end solutions to our enterprise customers. We gain competitive advantage from these distinctive capabilities and have developed the ability to implement and manage complex IT systems in changing times with greater effectiveness than many competitors.
 							</p>
 						</div>
 
-						<div class="#">
-
+						<div class="sm:hidden lg:block">
 							<img src="images/work.svg" style="width: 520px; height: 400.562px;">
 						</div>
 						
@@ -138,12 +137,12 @@
 				
 			</div>
 			<div id="about" style="background: #4652AF">
-				<div class="container mx-auto pt-12 pb-20 max-w-lg">
+				<div class="container mx-auto pt-12 pb-20 w-3/4">
 					
-					<p class="w-full mb-4 text-lg text-justify text-white leading-loose">
+					<p class="mb-4 text-lg text-justify text-white leading-loose">
 						BoubaTech Solutions is located in Shanghai, China (South-Eastern Asia), offering fully fledged services for software development and engineering empowering effective near-shore management to its clients. Thus, keeping the deadlines on time and on track.
 					</p>
-					<p class="w-full mb-4 text-lg text-justify text-white leading-loose">
+					<p class="mb-4 text-lg text-justify text-white leading-loose">
 						BoubaTech’s differentiation point comes with three simple principles:
 					</p>
 					<div class="flex mb-4">
@@ -223,7 +222,7 @@
 					</div>
 				</div>
 			</div>
-			<!-- end about us -->
+			<!-- end about us -->	
 
 			<div id="contact-us" class="pb-20 text-grey-darkest" style="background: #cddde8; min-height: 700px;">
 				<div class="container mx-auto">
@@ -235,90 +234,111 @@
 							Do you have any question? Please contact us here.
 						</p>
 					</div>
-					<div class="w-full max-w-xl mx-auto">
-						<div class="flex justify-between">
-							<div>
-								<h1 class="text-logo mb-4">Our Team</h1>
+					<div class="w-full max-w-lg mx-auto">
 
-								<div class="mb-8">
-									<img src="images/abdi.jpeg" class="rounded-lg mb-3" style="width: 200px;">
-									<h4 class="text-black font-normal mb-3">Abdi Ali</h4>
-									<p class="mb-3 font-bold text-black">
-										Web & IOS Developer
-									</p>
-									<p class="mb-3">
-										<a href="#" class="no-underline text-black">China/Hangzhou</a>
-									</p>
-
-									<p class="mb-3">
-										<a href="tel:+8618258294110" class="no-underline text-logo">+8618258294110</a>
-									</p>
-									<p class="mb-3">
-										<a href="mailto:abdimohamedali@boubatech.com" class="no-underline text-logo">abdimohamedali@boubatech.com</a>
-									</p>
-									
-								</div>
-								<div>
-									<img src="images/diallo1.jpg" class="rounded-lg mb-3" style="width: 200px;">
-									<h4 class="text-black font-normal mb-3">Boubacar Diallo</h4>
-									<p class="mb-3 font-bold text-black">
-										IT Adminstrator
-									</p>
-									<p class="mb-3">
-										China/Shanghai
-									</p>
-
-									<p class="mb-3">
-										<a href="tel:+8613611683680" class="no-underline text-logo">+8613611683680</a>
-									</p>
-									<p class="mb-3">
-										<a href="mailto:b.diallo2009@boubatech.com" class="no-underline text-logo">b.diallo2009@boubatech.com</a>
-									</p>
-									
-								</div>
-
-
-
-
-
+						<form method="post" action="https://formspree.io/b.diallo2009@boubatech.com" class="bg-white shadow-md rounded px-8 pt-6 pb-12 mb-4" style="height: 530px;">
+							<div class="mb-4">
+								<label class="block text-gray-800 text-sm font-bold mb-2" for="Name">
+									Your name
+								</label>
+								<input placeholder="Your Name" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-800 leading-tight focus:outline-none focus:shadow-outline" id="Name" name="name" type="text" placeholder="Your Name?">
+							</div>
+							<div class="mb-6">
+								<label class="block text-gray-800 text-sm font-bold mb-2" for="email">
+									Email
+								</label>
+								<input class="shadow appearance-none border border-red rounded w-full py-2 px-3 text-gray-800 mb-3 leading-tight focus:outline-none focus:shadow-outline" id="email" name="email" type="email" placeholder="Your email address">
 							</div>
 
-							<form method="post" action="https://formspree.io/b.diallo2009@boubatech.com" class="w-1/2 bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4" style="height: 495px;">
-								<div class="mb-4">
-									<label class="block text-grey-darker text-sm font-bold mb-2" for="Name">
-										Your name
-									</label>
-									<input class="shadow appearance-none border rounded w-full py-2 px-3 text-grey-darker leading-tight focus:outline-none focus:shadow-outline" id="Name" name="name" type="text" placeholder="Your Name?">
-								</div>
-								<div class="mb-6">
-									<label class="block text-grey-darker text-sm font-bold mb-2" for="email">
-										Email
-									</label>
-									<input class="shadow appearance-none border border-red rounded w-full py-2 px-3 text-grey-darker mb-3 leading-tight focus:outline-none focus:shadow-outline" id="email" name="email" type="email" placeholder="Your email address">
-								</div>
+							<div class="mb-6">
+								<label class="block text-gray-800 text-sm font-bold mb-2" for="message">
+									Message
+								</label>
+								<textarea style="height: 166px;" class="shadow appearance-none border border-red rounded w-full py-2 px-3 text-gray-600 mb-3 leading-tight focus:outline-none focus:shadow-outline" id="message" name="message" type="message"></textarea>
+							</div>
 
-								<div class="mb-6">
-									<label class="block text-grey-darker text-sm font-bold mb-2" for="message">
-										Message
-									</label>
-									<textarea style="height: 166px;" class="shadow appearance-none border border-red rounded w-full py-2 px-3 text-grey-darker mb-3 leading-tight focus:outline-none focus:shadow-outline" id="message" name="message" type="message"></textarea>
-								</div>
+							<input type="text" name="_gotcha" style="display:none" />
+							
+							<button style="background: #4652AF" class="hover:bg-blue-dark text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
+								Submit
+							</button>
+		
+						</form>
 
-								<input type="text" name="_gotcha" style="display:none" />
+					</div>
+				</div>
+			</div>
+
+			<div id="our-team" class="pb-20 bg-gray-900" style="min-height: 700px;">
+				<div class="container mx-auto w-3/4">
+					<div class="lg:text-center pt-8">
+						<h1 class="sm:mt-4 text-white mb-4 text-4xl mb-3">
+							Our Team
+						</h1>
+
+						<div class="lg:flex mt-12">
+
+							<div class="w-1/3 mr-8 sm:mb-16 lg:mb-0">
 								
-								<button style="background: #4652AF" class="hover:bg-blue-dark text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
-									Submit
-								</button>
-			
-							</form>
+								<img class="mb-6 bg-gray-100 rounded-lg" src="https://res.cloudinary.com/dac65j3dt/image/upload/v1560937509/abdi_b5pum6.png" alt="chisanga picture">
+								<h4 class="text-left text-white font-bold mb-3">Abdi Ali</h4>
+								<p class="mb-3 text-left font-bold text-white">
+										Web & IOS Developer
+								</p>
+								<p class="mb-3 text-left">
+									<a href="#" class="no-underline text-white">China/Hangzhou</a>
+								</p>
 
-						
+								<p class="mb-3 text-left">
+									<a href="tel:+8618258294110" class="no-underline text-white font-bold text-logo">+8618258294110</a>
+								</p>
+								<p class="mb-12 text-left">
+									<a href="mailto:abdimohamedali@boubatech.com" class="no-underline text-white text-logo">abdimohamedali@boubatech.com</a>
+								</p>
+							</div>
+
+							<div class="w-1/3 mr-8 sm:mb-12 lg:mb-0">
+								
+								<img class="mb-6 bg-gray-100 rounded-lg" src="https://res.cloudinary.com/dac65j3dt/image/upload/c_thumb,w_339,h_225,g_face/v1560937513/diallo_lhdxks.png" alt="chisanga picture">
+								<h4 class="text-left text-white font-bold mb-3">Boubacar Diallo</h4>
+								<p class="mb-3 text-left font-bold text-white">
+									IT Adminstrator
+								</p>
+								<p class="mb-3 text-left">
+									<a href="#" class="no-underline text-white">China/Shanghai</a>
+								</p>
+
+								<p class="mb-3 text-left">
+										<a href="tel:+8613611683680" class="no-underline text-left text-white font-bold text-logo">+8613611683680</a>
+								</p>
+								<p class="mb-12 text-left">
+									<a href="mailto:b.diallo2009@boubatech.com" class="no-underline text-left text-white text-logo">b.diallo2009@boubatech.com</a>
+								</p>
+							</div>
+
+							<div class="w-1/3">
+								
+								<img class="mb-6 bg-gray-100 rounded-lg" src="https://res.cloudinary.com/dac65j3dt/image/upload/e_improve,w_339,h_225,c_thumb,g_auto/v1560937526/chinsanga_egom68.png" alt="chisanga picture">
+								<h4 class="text-left text-white font-bold mb-3">Chisanga Ndhlovu</h4>
+								<p class="mb-3 text-left font-bold text-white">
+									Database Adminstrator & IT Consultant
+								</p>
+								<p class="mb-3 text-left">
+									<a href="#" class="no-underline text-white">China/Hangzhou</a>
+								</p>
+
+								<p class="mb-3 text-left">
+									<a href="tel:+8613083959036" class="no-underline text-left text-white font-bold text-logo">+8613083959036</a>
+								</p>
+								<p class="mb-3 text-left">
+									<a href="mailto:chisanga.ndhlovu@yahoo.com" class="no-underline text-left text-white text-logo">chisanga.ndhlovu@yahoo.com</a>
+								</p>
+							</div>
 
 						</div>
-
-						
 						
 					</div>
+					
 				</div>
 			</div>
 			
